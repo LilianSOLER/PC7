@@ -1,9 +1,9 @@
-package td3;
+package threads.td3;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {
-        int nThreads = 1000;
-        int nLoops = 100000;
+        int nThreads = 1000000;
+        int nLoops = 10000;
         ThreadCount[] threads = new ThreadCount[nThreads];
 
         for(int i = 0; i < nThreads; i++) {

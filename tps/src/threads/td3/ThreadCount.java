@@ -1,4 +1,4 @@
-package td3;
+package threads.td3;
 
 public  class ThreadCount extends Thread { // extends Thread instead of implements Runnable
     static int cptDesync = 0;
